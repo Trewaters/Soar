@@ -172,7 +172,14 @@ Prereqs to work on this project..._(wip)_
 
 #### MongoDB
 
-Installed MongoD locally for development purposes. Use Cloud services for production.
+Install MongoD locally for development purposes. This is where we use `mongod` to start the local database. I need to add both `C:/data/config/`, `C:/data/db/` and `C:/data/log/` folders. Update your `.env` and `.env.local` files with the correct connection string.
+
+Use Cloud services for production.
+
+**Download**
+
+- [MongoDB Community Server "local Mongo DB"](https://www.mongodb.com/try/download/community)
+- [MongoDB Compass "GUI"](https://www.mongodb.com/try/download/compass)
 
 **Details**
 
